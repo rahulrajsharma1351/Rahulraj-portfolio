@@ -56,8 +56,8 @@ body {
 }
 
 .bar {
-    width: 3rem;
-    height: 6px;
+    width: 2.5rem;
+    height: 4px;
     background-color: rgb(0, 0, 0);
     margin: 5px 0;
     transition: transform 0.3s;
@@ -225,7 +225,7 @@ a {
 
 .user-image img {
     z-index: -9;
-    width: 300px;
+    width: 100%;
     border-radius: 7px;
 }
 
@@ -374,9 +374,11 @@ a {
 .project-card {
     width: 90%;
     height: 500px;
-    background-image: url(projects/Project1.png);
+    /* background-image: url(projects/Project1.png); */
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
 
     position: relative;
     box-shadow: 0px 0px 20px black;
@@ -944,6 +946,7 @@ footer {
         padding: 4rem;
         gap: 10px;
     }
+
     .skill-container-right {
         width: 50%;
         padding: 5rem 1rem;
@@ -953,6 +956,7 @@ footer {
         width: 50px;
         height: 50px;
     }
+
     .about-me-right {
         width: 65%;
         margin: 0;
@@ -1043,8 +1047,12 @@ footer {
         padding: 0.5rem 1rem;
     }
 
+    .profile-right {
+        width: 80%;
+    }
+
     .user-image img {
-        width: 190px;
+        width: 100%;
     }
 
     .page-header {
@@ -1154,21 +1162,38 @@ footer {
         margin: 1.5rem 0;
     }
 
+    .profile-subdescription {
+        display: none;
+    }
+
     .logo-text {
-        font-size: 35px;
+        font-size: 28px;
+    }
+
+    .navbar {
+        padding: 0.5rem 2rem;
+    }
+
+    .nav1 {
+        height: 7vh;
     }
 
     .nav-items {
         display: none;
         flex-direction: column;
         width: 60%;
-        padding: 2rem 0;
+        padding: 0;
+    }
+
+    .bar {
+        width: 2.1rem;
+        margin: 3px 0;
     }
 
     .nav-items a {
         display: block;
         font-size: 27px;
-        padding: 7px 3rem;
+        padding: 7px 1rem;
         background-color: white;
         width: 100%;
 
@@ -1176,10 +1201,10 @@ footer {
 
     .nav-items.active {
         position: absolute;
-        top: 66px;
+        top: 51px;
         right: 0;
         background-color: rgb(0, 0, 0);
-        height: 52vh;
+        height: 42vh;
         display: flex;
     }
 
@@ -1221,9 +1246,9 @@ footer {
     }
 
     .profile-right {
-        width: 60%;
+        width: 70%;
         margin: 0 auto;
-        margin-top:50px;
+        margin-top: 50px;
     }
 
     .btn1 {
@@ -1231,7 +1256,7 @@ footer {
     }
 
     .user-image img {
-        width: 200px;
+        width: 100%;
     }
 
     .page-header {
@@ -1360,7 +1385,7 @@ footer {
 
     .about-details ul li {
         margin: 10px;
-        font-size: 19px;
+        font-size: 22px;
     }
 
     .about-heading {
@@ -1416,7 +1441,6 @@ footer {
     .footer-faded-text {
         height: 9vh;
         font-size: 3rem;
-
     }
 
     .link-wrapper {
@@ -1449,19 +1473,27 @@ footer {
         padding: 0.3rem .7rem;
     }
 
+    .btn1 a {
+        font-size: 16px;
+    }
+
     .profile-right {
-        width: 75%;
+        /* width: 84%; */
+    }
+
+    .user-image img {
+        width: 100%;
     }
 
     .faded-text {
-        font-size: 2.7em;
+        font-size: 2.5em;
         bottom: -10.5%;
         left: -7%;
     }
 
     .page-header {
         font-size: 50px;
-        padding-top: 20px
+        padding-top: 4rem;
     }
 
     .project-section {
@@ -1475,6 +1507,10 @@ footer {
     .skill-container-right {
         width: 100%;
         padding: 6rem 0;
+    }
+
+    .skill-faded-text {
+        bottom: -2%;
     }
 
     .about-me-left {
@@ -1492,22 +1528,35 @@ footer {
         margin: 15px 0;
     }
 
+    #emailid {
+        font-size: 17px;
+    }
+
     .contact-heading {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .contact-subheading {
         font-size: 1.5rem;
     }
 
-    .footer-wrapper {
+    .formfield {
+        box-shadow: 2px 2px 5px black;
+        margin: 5px;
+    }
 
+    .footer-wrapper {
         display: flex;
         justify-content: flex-start;
         align-items: start;
         gap: 1rem;
         padding: 1rem;
 
+    }
+
+    .footer-faded-text {
+        height: 9vh;
+        font-size: 2.5rem;
     }
 }
 
@@ -1579,6 +1628,10 @@ footer {
 
     .contact-subheading {
         font-size: 1.5rem;
+    }
+
+    #emailid {
+        font-size: 16px;
     }
 
     .formfield {
