@@ -1258,7 +1258,11 @@ footer {
     .user-image img {
         width: 100%;
     }
-
+    
+    .user-image {
+        padding: 1rem;
+    }
+    
     .page-header {
         font-size: 60px;
         padding-top: 5rem;
