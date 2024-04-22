@@ -1,5 +1,5 @@
 # Rahulraj-portfolio
-![desktop-design]()
+![desktop-design](profile/desktop-designp.png)
 ## 🚀 Welcome to Rahul Raj Sharma's Portfolio 🌟
 
 As a skilled full stack and software developer, I bring innovation and efficiency to every project I undertake. This portfolio website serves as a testament to my expertise and showcases a selection of my finest work.
