@@ -434,13 +434,13 @@ a {
 }
 
 .project-number-left {
-    right: -40px;
-    top: -45px;
+    right:0px;
+    top: -40px;
 }
 
 .project-number-right {
-    left: -40px;
-    top: -45px;
+    left: 0px;
+    top: -40px;
 }
 
 .project-content {
