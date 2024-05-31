@@ -1289,13 +1289,13 @@ footer {
     }
 
     .project-number-left {
-        right: -15px;
-        top: -25px;
+        right: 0px;
+        top: -9px;
     }
 
     .project-number-right {
-        left: -10px;
-        top: -25px;
+        left: 0px;
+        top: -9px;
     }
 
     .project-skill {
